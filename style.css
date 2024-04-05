@@ -1,0 +1,93 @@
+@font-face {
+    font-family: guerrilla;
+    src: url(fonts/ProtestGuerrilla-Regular.ttf);
+}
+@font-face {
+    font-family: revolution;
+    src: url(fonts/ProtestRevolution-Regular.ttf);
+    src: url();
+}
+@font-face {
+    font-family: riot;
+    src: url(fonts/ProtestRiot-Regular.ttf);
+}
+body{
+    background-color: aquamarine;
+}
+h1{
+    color: crimson;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+    font-size:x-large;
+    height: 20px;
+}
+.bop{
+    color: rgb(108, 209, 8);
+}
+div.box1{
+    height: 400px;
+    width: 300px;
+    font-size: large;
+    border-style: double;
+    font-family: revolution;
+    text-align: center;
+    margin: 20px;
+    border-color:rgb(108, 209, 8);
+    border-width: 20px;
+    border-radius: 50px;
+    background-image: url(images/bop.jpg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: -20px -20px;
+    padding: 10px;
+    text-transform: capitalize;
+    color:lawngreen;
+}
+.cosmos{
+    color: rgb(24, 12, 185);
+}
+div.box2{
+    height: 400px;
+    width: 300px;
+    font-size:large;
+    border-style: double;
+    font-family: riot;
+    margin: 20px;
+    border-color: rgb(24, 12, 185);
+    border-width: 20px;
+    border-radius: 50px;
+    background-image: url(images/cosmos.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -20px -20px;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(24, 12, 185);
+}
+.pf{
+    color:rgb(245, 81, 5);
+}
+div.box3{
+    height: 400px;
+    width: 300px;
+    font-size: large;
+    border-style: double;
+    font-family: guerrilla;
+    text-align: center;
+    margin: 20px;
+    border-color: rgb(245, 81, 5);
+    border-width: 20px;
+    border-radius: 50px;
+    background-image: url(images/pf.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: -20px -20px;
+    padding: 10px;
+    text-transform: capitalize;
+    color:rgb(245, 81, 5);
+}
+div.container{
+    display: flex;
+}
